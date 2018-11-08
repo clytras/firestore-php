@@ -83,6 +83,11 @@ class DocumentReference
 
         return $this;
     }
+    
+    public function uri()
+    {
+        return $this->uri;
+    }
 
     /**
      * Returns a data snapshot of the current location.
